@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Uphold Legal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Background Grid Lines -->
+    <div class="bg-grid"></div>
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <div class="logo-icon"><i class="fas fa-balance-scale-right"></i></div>
+            <div class="logo-text">Uphold<br>Legal</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Individual</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Practice Areas <i class="fas fa-caret-down"></i></a></li>
+            <li><a href="#">Services <i class="fas fa-caret-down"></i></a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="recommendations.html">Recommendations</a></li>
+            <li><a href="chat.html" class="active-pill">Chat</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <a href="#" class="btn-primary">Get Started</a>
+    </nav>
+
+    <main class="page-container">
+        <div class="form-card">
+            <h1>Let's Discuss Your Legal Needs</h1>
+            <p class="form-description">Reach out to schedule a confidential consultation with one of our attorneys. Your inquiry will be handled with discretion and prompt attention.</p>
+            
+            <form action="#" method="POST" class="consultation-form">
+                <div class="input-group">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" placeholder="Write your name" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="email">Email Address*</label>
+                    <input type="email" id="email" name="email" placeholder="Write your email address" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="referral">How did you hear about us?</label>
+                    <input type="text" id="referral" name="referral" placeholder="Referral, social media, google?">
+                </div>
+                
+                <div class="input-group">
+                    <label for="message">How can we help you?</label>
+                    <textarea id="message" name="message" placeholder="Type your message" rows="3" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">Request a Consultation</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
